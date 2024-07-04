@@ -31,6 +31,6 @@ features:
     details: 工作环境；linux 命令与 shell
   - icon: <img src="/docker.png" alt="docker" />
     title: Docker容器
-    details: docker 与 k8s
+    details: docker 与 k8s1
 
 ---
