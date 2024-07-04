@@ -11,7 +11,12 @@ module.exports = {
                     {text:'入门',link:'/php/入门'},
                 ]
             },
-            {text:"前端",link:'/前端/介绍'},
+            {
+              text:"前端",
+              items:[
+                  {text:'uniapp',link:'/vue/uniapp/'},
+              ]
+            },
             {
                 text:"关于",
                 items:[
@@ -24,8 +29,8 @@ module.exports = {
             provider: 'local'
         },
         //社交属性
-        // socialLinks: [
-            // { icon: 'github', link: 'https://gitee.com/woodlc' },
+        socialLinks: [
+            { icon: 'github', link: 'https://gitee.com/woodlc' },
             // { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
             // { icon: 'twitter', link: '...' },
             // 也可以通过自定义的方式
@@ -35,49 +40,29 @@ module.exports = {
             //   },
             //   link: '...'
             // }
-        //   ],
+          ],
           footer: {
             message: 'woodlc',
             copyright: ' © 2024-vitepress'
           },
           //侧边栏
-          sidebar: [
-            {
-                text: "欢迎阅读",
-                items: [
-                  {
-                    text: "阅读须知",
-                    link: "/posts/阅读须知",
-                  },          
-                ],
+          sidebar: {
+            '/vue/uniapp/':[
+              {
+                text: '介绍',
+                link: '/vue/uniapp/'
               },
               {
-                text: "vitepress",
-                collapsible:true,
-                collapsed:true,
+                text: '页面设置',
+                link: '/vue/uniapp/设置'
+              },
+              {
+                text: '组件',
                 items: [
-                  {
-                    text: "介绍",
-                    link: "/posts/vitepress/介绍",
-                  },
-                  {
-                    text:"快速上手",
-                    link:"/posts/vitepress/快速上手"
-                  },
-                  {
-                    text:"主页",
-                    link:"/posts/vitepress/主页"
-                  },
-                  {
-                    text:"导航栏",
-                    link:"/posts/vitepress/导航栏"
-                  },
-                  {
-                    text:"侧边栏",
-                    link:"/posts/vitepress/侧边栏"
-                  }
-                ],
+                  {text: '签名', link: '/vue/uniapp/实现签名'},
+                ]
               }
-          ]
+            ]
+          }
     }
   }
