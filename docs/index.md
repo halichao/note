@@ -1,0 +1,36 @@
+---
+layout: home
+
+hero:
+  name: woodlc
+  text: 一个后端开发者的工作学习笔记
+  tagline: 
+  image:
+    # src: /logo.png
+    alt: VitePress中文网
+  actions:
+    - theme: brand
+      text: 开始预览
+      link: 
+    - theme: alt
+      text: 由VitePress驱动
+      link: https://vitepress.dev/
+    - theme: alt
+      text: 在gitee上查看
+      link: https://gitee.com/woodlc
+
+features:
+  - icon: <img src="/php.png" alt="php" />
+    title: PHP
+    details: 主开发语言
+  - icon: <img src="/vue.png" alt="vue" />
+    title: 前端
+    details: html/css/js 以及 vuejs 框架
+  - icon: <img src="/linux.png" alt="linux" />
+    title: Linux运维
+    details: 工作环境；linux 命令与 shell
+  - icon: <img src="/docker.png" alt="docker" />
+    title: Docker容器
+    details: docker 与 k8s
+
+---
