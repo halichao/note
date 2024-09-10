@@ -8,13 +8,13 @@ module.exports = {
             {
                 text:"php",
                 items:[
-                    {text:'入门',link:'/php/入门'},
+                    {text:'openssl',link:'/php/openssl'},
                 ]
             },
             {
               text:"前端",
               items:[
-                  {text:'uniapp',link:'/vue/uniapp/'},
+                  {text:'uniapp',link:'/vue/uniapp/index'},
               ]
             },
             {
